@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="section1">
+        <div class="konten">
+            <div class="container">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="container1">
+                <label for="">Nama : </label>
+                <br><br>
+                <input type="text" id="name">
+            </div>
+    
+            <div class="container2">
+                <form>
+                    <label for="">Gender : </label>
+                    <br><br>
+                    <input class="gender" type="radio" value="Male" name="gender">
+                    <label for="male">Male</label>
+                    <input class="gender" type="radio" value="Female" name="gender">
+                    <label for="female">Female</label>
+                    <br>
+                </form>
+            </div>
+    
+            <div class="container3">
+                <form action="">
+                    <label for="">Hobbies : </label>
+                    <br><br>
+                    <input type="checkbox" name="hobi" value="Badminton">Badminton
+                    <br>
+                    <input type="checkbox" name="hobi" value="Swimming">Swimming
+                    <br>
+                    <input type="checkbox" name="hobi" value="Football">Football
+                    <br>
+                    <input type="checkbox" name="hobi" value="Basketball">Basketball
+                    <br>
+                    <input type="checkbox" name="hobi" value="Voli">Voli
+                </form>
+            </div>
+    
+            <div class="container4">
+                <form class="alamat">
+                    <label for="">Alamat : </label>
+                    <br><br>
+                    <textarea name="" id="area" cols="30" rows="5"></textarea>
+                </form>
+            </div>
+            
+            <br><br>
+            <button onclick="submit()">Submit</button>
+            <br>
+        </div>
+        <div class="konten2">
+            <div class="container5">
+                <p>Nama : </p>
+                <p id="nama"></p>
+                <br>
+                <p>Gender : </p>
+                <p id="gender"></p>
+                <br>
+                <p>Hobby : </p>
+                <p id="hobby"></p>
+                <br>
+                <p>Alamat : </p>
+                <p id="alamat"></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

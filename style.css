@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(term-bg-1-666de2d9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#section1{
+    width: 85%;
+    margin: auto;
+}
+.konten{
+    width: 30%;
+    margin: auto;
+    margin-top: 45px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+}
+.container{
+    text-align: center;
+}
+.container1{
+    margin-top: 20px;
+}
+.container2{
+    margin-top: 20px;
+}
+.container3{
+    margin-top: 20px;
+}
+.container4{
+    margin-top: 20px;
+}
+#name{
+    padding: 10px;
+    border-radius: 5px;
+    width: 390px;
+}
+#area{
+    padding: 5px;
+    border-radius: 5px;
+    width: 390px;
+}
+button{
+    padding: 10px;
+
+}
+.konten2{
+    width: 30%;
+    margin: auto;
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+}
+#nama{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#gender{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#hobby{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#alamat{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
